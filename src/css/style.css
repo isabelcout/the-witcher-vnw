@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 20vh;
+    background-color: black;
+    color: white;
+}
+
+header section{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 30vw;
+}
+
+header ul{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    width: 45vw;
+    height: 20vh;
+}
+
+header li{
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+}
