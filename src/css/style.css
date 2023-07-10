@@ -9,6 +9,7 @@ header{
     justify-content: space-between;
     align-items: center;
     height: 20vh;
+    width: 100%;
     background-color: black;
     color: white;
 }
@@ -33,3 +34,10 @@ header li{
     align-items: center;
     font-size: 18px;
 }
+div {
+    height: 70vh;
+    background-image: url("./src/images/banner.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
