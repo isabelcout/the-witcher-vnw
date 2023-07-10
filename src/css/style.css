@@ -2,16 +2,27 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Montserrat';
+}
+
+body{
+    background-image: url(../images/banner.png);
+    background-size: cover;
+    height: 100vh;
 }
 
 header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 20vh;
+    height: 15vh;
     width: 100%;
-    background-color: black;
+    background-color: #030200;
     color: white;
+}
+
+header h2:hover{
+    transform: scale(115%);
 }
 
 header section{
@@ -32,12 +43,56 @@ header ul{
 header li{
     display: flex;
     align-items: center;
-    font-size: 18px;
+    font-size: 20px;
 }
-div {
-    height: 70vh;
-    background-image: url("./src/images/banner.png");
+
+header li:hover{
+    transform: scale(115%);
+}
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 85vh;
+}
+
+.geralt{
+    background-image: url(../images/geralt.png);
     background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-  }
+    width: 34vw;
+    height: 85vh;
+}
+
+.witcher{
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    height: 50vh;
+    position: absolute;
+}
+
+.witcher img{
+    width: 20vw ;
+}
+
+button{
+    width: 15vw;
+    height: 8vh;
+    position: absolute;
+    bottom: 40px;
+    border-radius: 15px;
+    background-color: #B80F19;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+button:hover{
+    transform: scale(115%);
+}
+
+
+
+
+
